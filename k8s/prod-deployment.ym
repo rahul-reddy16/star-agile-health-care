@@ -17,7 +17,7 @@ spec:
           env: prod  # This targets nodes labeled as prod
       containers:
         - name: my-app
-          image: sachinbacha/medicure:latest
+          image: reddyrahul/medicure:latest
           ports:
             - containerPort: 9090
 
